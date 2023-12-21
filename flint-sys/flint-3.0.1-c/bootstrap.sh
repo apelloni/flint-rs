@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+libtoolize --copy --force --install
 rm -rf autom4te.cache
 
 autoreconf -f -i -v -Wall

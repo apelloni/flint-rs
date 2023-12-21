@@ -33,6 +33,7 @@ m4_define(FLINT_VERSION,m4_include([VERSION]))
 
 AC_INIT(FLINT, FLINT_VERSION, [https://github.com/flintlib/flint/issues/], flint, [https://flintlib.org/])
 AC_CONFIG_AUX_DIR([config])
+AC_CONFIG_MACRO_DIR([m4])
 AC_LANG(C)
 
 # Every major version of Flint (1.0, 1.1, 1.2, etc.) gets
